@@ -1,0 +1,13 @@
+<h1>Bienvenido a Tennis Scorer</h1>
+
+
+<form name="jugar" action="/jugar" method="post">
+  Jugador1: <input name="jugador1" type="text">
+  Jugador2: <input name="jugador2" type="text">
+  <input type="submit" value="Jugar">
+
+  <br/><br/>
+  <% @@historial.each do |elem| %>
+	<%= elem %> </br>
+  <% end %>
+</form>

@@ -1,0 +1,6 @@
+.DS_Store
+webrat.log
+coverage
+coverage/.last_run.json
+/coverage/*
+webrat-*.html
